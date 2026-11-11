@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sangavi S - B.Sc. Artificial Intelligence and Machine Learning student portfolio">
+  <title>Sangavi S | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">Sangavi<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+        <h1>I'm <span>Sangavi S</span></h1>
+        <h2>B.Sc. Artificial Intelligence &amp; Machine Learning Student</h2>
+        <p class="intro">I am a curious learner interested in programming, technology, and building useful digital solutions. I enjoy improving my skills and learning something new every day.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View My Work</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative initials">
+        <div class="art-circle"><span>SS</span></div>
+        <div class="art-note">LEARN · BUILD · GROW</div>
+      </div>
+    </section>
+
+    <section class="section soft" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">I am Sangavi S, a second-year B.Sc. Artificial Intelligence and Machine Learning student at KPR College of Arts Science and Research. I am developing my programming knowledge in Python, C++, and Java. My goal is to strengthen my technical abilities through continuous learning and practical experience.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+      <h2 class="section-title">Education</h2>
+      <article class="info-card">
+        <div class="info-mark">🎓</div>
+        <div>
+          <h3>B.Sc. Artificial Intelligence and Machine Learning</h3>
+          <p>KPR College of Arts Science and Research</p>
+          <span class="muted">Currently pursuing · 2nd Year</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="section soft" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I AM LEARNING</p>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skill-grid">
+          <div class="skill-card"><span class="skill-icon">Py</span><h3>Python</h3><p>Programming fundamentals</p></div>
+          <div class="skill-card"><span class="skill-icon">C++</span><h3>C++</h3><p>Programming fundamentals</p></div>
+          <div class="skill-card"><span class="skill-icon">Ja</span><h3>Java</h3><p>Programming fundamentals</p></div>
+          <div class="skill-card"><span class="skill-icon">✦</span><h3>Web Development</h3><p>HTML and CSS basics</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">THINGS I HAVE WORKED ON</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-top">01</div>
+          <h3>LegalEase</h3>
+          <p>A web-based project that helps users generate first drafts of common legal documents using AI.</p>
+          <div class="tags"><span>Python</span><span>FastAPI</span><span>Streamlit</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top">02</div>
+          <h3>The Perfect Student Day</h3>
+          <p>A student-focused website concept presenting an ideal daily routine from morning to night.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+      </div>
+      <p class="edit-note">You can edit these project descriptions or replace them with your latest projects.</p>
+    </section>
+
+    <section class="section soft" id="certificates">
+      <div class="container">
+        <p class="eyebrow">COURSES &amp; LEARNING</p>
+        <h2 class="section-title">Certification</h2>
+        <article class="certificate-card">
+          <div class="certificate-icon">✧</div>
+          <div>
+            <h3>Use Canva to Design Digital Course Collateral</h3>
+            <p>Coursera · November 2026</p>
+            <span class="muted">Project Certificate</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="section-title">Contact Me</h2>
+        <p>If you would like to connect with me for academic or learning opportunities, feel free to reach out.</p>
+        <div class="contact-list">
+          <a href="mailto:sangavi2344@gmail.com">✉ sangavi2344@gmail.com</a>
+          <a href="tel:9842639967">☎ 9842639967</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Sangavi S. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
